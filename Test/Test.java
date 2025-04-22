@@ -5,3 +5,7 @@ public class Test {
         System.out.println("hi");
     }
 }
+
+class Studet{
+
+}
