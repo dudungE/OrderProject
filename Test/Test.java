@@ -7,6 +7,14 @@ public class Test {
 }
 
 class Student{
+    String name;
+
+    Student(){
+
+    }
+
+
+
 }
 
 class School{
