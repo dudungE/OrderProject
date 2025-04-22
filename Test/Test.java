@@ -9,3 +9,7 @@ public class Test {
 class Studet{
 
 }
+
+class School{
+
+}
