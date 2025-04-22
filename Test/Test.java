@@ -6,6 +6,9 @@ public class Test {
     }
 }
 
-class Studet{
+class Student{
+}
+
+class School{
 
 }
