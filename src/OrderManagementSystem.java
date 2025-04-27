@@ -11,13 +11,16 @@ public class OrderManagementSystem {
 
 
     /**
+     * [class 종류]
      * 고객
      * 상품 창고 재고
-     * 성공한 주문, 시랲한 주문 클래스
-     * <p>
+     * 성공한주문 실패한주문
+     *
+     * [비즈니스 로직]
      * 1. 재고량이 부족하면 "재고부족"으로 상품 주문 취소
      * 2. 특별회원의 경우 모든 상품에 대해 10% 할인율 적용
      */
+
 
     // Constructor
     public OrderManagementSystem() {
@@ -28,7 +31,6 @@ public class OrderManagementSystem {
         orders = new ArrayList<>();
         ordersFailed = new ArrayList<>();
     }
-
 
     //==========================================================================================
 
@@ -227,7 +229,7 @@ public class OrderManagementSystem {
         }
     }
 
-
+    // util
     public static void line() {
         System.out.println("=========================================================");
     }

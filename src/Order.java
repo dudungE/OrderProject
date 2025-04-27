@@ -69,7 +69,6 @@ class Order {
         orderDetails.add(orderDetail);
     }
 
-
     // 수주날짜 취득 메서드
     public String getOrderDateInfo() {
         return "수주 번호 " + orderId + "의 주문일자는 " + orderDate + "입니다.";

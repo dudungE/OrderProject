@@ -7,9 +7,6 @@ public class UI {
         Scanner sc = new Scanner(System.in);
         OrderManagementSystem system = new OrderManagementSystem();
 
-        // 기본 데이터 initalize
-//        dataInit(system);
-
         boolean flag = true;
         while (flag) {
             System.out.println("1: 고객정보 입력 2: 상품정보 입력 3: 수주등록 4: 미처리수주 취소 5: 데이터 조회 5: 0: 시스템 종료 ");
